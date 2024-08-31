@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Evelins';
+    src: url('EvelinsRegular.woff2') format('woff2'),
+        url('EvelinsRegular.woff') format('woff'),
+        url('EvelinsRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+:root {
+    --c1: #FFFFFf;
+    --c2: #9EC8E5;
+    --c3: #153851;
+    --c4: #050505;
+}
+
+body{
+    background-image: url(fd.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif
+}
+
+
+main{
+    background-image: linear-gradient(  rgba(21, 56, 81, 0.600), rgba(0, 0, 0, 0.800));
+    box-shadow: 0px 5px 30px var(--c3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 95%;
+    width: 25%;
+    border-radius: 20px;
+}
+
+.b1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    color: var(--c1);
+    font-size: 20px;
+    font-family: 'Evelins';
+    font-weight: lighter; 
+}
+.b2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    min-width: 100%;
+}
+
+.ft{
+    width: 45%;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgba(158, 199, 229, 0.500);
+}
+
+.btn{
+    background-color: white;
+    height: 50px;
+    width: 67%;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 30px;
+    transition: 0.5s ;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 5px 20px rgba(158, 199, 229, 0.500);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.icon-btn{
+    height: 40px;
+}
